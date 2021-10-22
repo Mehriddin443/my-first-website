@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 15</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container top-header d-flex jc-sb ai-c">
+        <div class="lan-currency">
+          <select name="" id="">
+            <option value="en">EN</option>
+            <option value="uz">UZ</option>
+          </select>
+          <select name="" id="">
+            <option value="en">USD</option>
+            <option value="uz">SUM</option>
+          </select>
+        </div>
+        <div class="top-right d-flex">
+          <div class="account">
+            <div class="profile d-flex ai-c">
+              <img src="images/profile_close_2.png" alt="" />
+              <span>My profile</span>
+            </div>
+          </div>
+          <div class="cart d-flex ai-c">
+            <img src="images/shopping_cart_black_24dp.svg" alt="" />
+            <span class="d-flex jc-c ai-c">2</span>
+          </div>
+          <div class="items"><a href="#">Items</a></div>
+          <div class="cart-price">
+            <p>$0.00</p>
+          </div>
+          <div class="search">
+            <img src="images/search_black_24dp.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="container bottom-header d-flex jc-sb ai-c">
+        <div class="logo d-flex ai-c">
+          <img src="images/Icon.svg" alt="" />
+          <span>E-Comm</span>
+        </div>
+        <div class="toggle-button" onclick="open1()">
+          <button><img src="images/menu.png" alt="" /></button>
+        </div>
+        <div class="bottom-right d-flex jc-sb" id="menu">
+          <div><a href="#">HOME</a></div>
+          <div><a href="#">BAGS</a></div>
+          <div><a href="#">SNEAKERS</a></div>
+          <div><a href="#">BELT</a></div>
+          <div><a href="#">CONTACT</a></div>
+          <div class="close-button" onclick="close1()">
+            <img src="images/cancel.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="home">
+      <div class="container">
+        <p>
+          Super Flash Sale <br />
+          50% Off
+        </p>
+      </div>
+    </div>
+    <div id="new-brands">
+      <div class="container">
+        <div class="new-brands d-flex">
+          <div class="new-brand-card">
+            <img src="images/banner.png" alt="" />
+          </div>
+          <div class="new-brand-card">
+            <img src="images/kros0.png" alt="" />
+            <!-- <img class="fs" src="images/FS - Nike Air Max 270 React....svg" alt=""> -->
+            <!-- <img class="money" src="images/$299,43.png" alt=""> -->
+            <!-- <img class="sale" src="images/Discount.png" alt=""> -->
+          </div>
+          <div class="new-brand-card">
+            <img src="images/kros01.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="two-page ">
+      <div class="BEST-SELLER">BEST SELLER</div>
+       <div class="all-me top-header d-flex jc-sb ai-c    ">
+      <a class="all" href="#">All</a>
+      <a href="#">Bags</a>
+      <a href="#">Sneakers</a>
+      <a href="#">Belt</a>
+      <a href="#">Sunglasses</a>
+    </div>
+    <div class="photos" style="width: 100%;">
+      <div class="kros"><img src="./images/kros.png" alt=""></div>
+      <div class="air-n"><img src="./images/Group 476.png" alt=""></div>
+      <div class="sumka"><img src="images/sumka.png" alt=""></div>
+      <div class="sum-a"><img src="images/Group 476.png" alt=""></div>
+      <div class="sumka2"><img src="images/sumka2.png" alt=""></div>
+      <div class="sum2-a"><img src="images/Group 476.png" alt=""></div>
+      <div class="kros2"><img src="images/kros2.png" alt=""></div>
+      <div class="kros2-a"><img src="images/Group 476.png" alt=""></div>
+      <div class="kros3"><img src="images/Product Picture02.png" alt=""></div>
+      <div class="kros3-a"><img src="images/Group 476.png" alt=""></div>
+      <div class="kros4"><img src="images/Product Picture03.png" alt=""></div>
+      <div class="kros4-a"><img src="images/Group 476.png" alt=""></div>
+      <div class="kros5"><img src="images/Product Picture01.png" alt=""></div>
+      <div class="kros5-a"><img src="images/Group 476.png" alt=""></div>
+      <div class="kros6"><img src="images/kros2.png" alt=""></div>
+      <div class="kros6-a"><img src="images/Group 476.png" alt=""></div>
+    </div>
+    </div>
+    <script>
+      var x = document.getElementById("menu");
+      function open1() {
+        x.style.left = "0";
+      }
+      function close1() {
+        x.style.left = "-100%";
+      }
+    </script>
+  </body>
+</html>
